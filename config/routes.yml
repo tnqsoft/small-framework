@@ -1,0 +1,14 @@
+Default:
+  prefix: '/'
+  routing:
+    index: '{name}'
+    about: 'about'
+    contact: 'contact'
+
+Category:
+  prefix: '/category'
+  routing:
+    index: /
+    add: /add
+    edit: /edit/{id}
+    delete: /delete/{id}

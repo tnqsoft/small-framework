@@ -1,0 +1,10 @@
+app:
+  mode: dev
+
+database:
+  driver: 'pdo_mysql'
+  host: 'localhost'
+  dbname: 'codebasedemo'
+  user: 'root'
+  password: '123456'
+  port: '3306'
